@@ -18,6 +18,7 @@ class MathFunctions:
         @time in seconds
         @direction -- N(orth), E(ast), S(outh), W(est)
     """
+    ## test
     
     def calculate_velocity(self, distance: float, time: float, direction: str) -> str:
         if direction not in ['N', 'E', 'S', 'W']:
