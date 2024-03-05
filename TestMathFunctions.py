@@ -1,7 +1,6 @@
 import unittest
 from MathFunctions import MathFunctions
 
-
 class TestMathFunctions(unittest.TestCase):
     def setUp(self) -> None:
         self.math_funcs = MathFunctions()
