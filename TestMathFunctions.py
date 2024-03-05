@@ -16,7 +16,7 @@ class TestMathFunctions(unittest.TestCase):
         b = 15
         expected = 25
         # act
-        result = self.math_funcs.add(a)
+        result = self.math_funcs.add(a,b)
         # assert
         self.assertEqual(result, expected, 'Add method works as expected')
 
